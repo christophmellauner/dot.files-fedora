@@ -1,6 +1,8 @@
 com.bitwarden.desktop
+com.borgbase.Vorta
 com.brave.Browser
 com.discordapp.Discord
+com.github.tchx84.Flatseal
 com.github.wwmm.easyeffects
 com.google.AndroidStudio
 com.microsoft.Teams
@@ -10,13 +12,11 @@ com.slack.Slack
 com.spotify.Client
 com.usebottles.bottles
 com.valvesoftware.Steam
+com.visualstudio.code
 org.ferdium.Ferdium
 org.gnome.Boxes
 org.jabref.jabref
-org.remmina.Remmina
-us.zoom.Zoom
-com.github.tchx84.Flatseal
-com.bitwarden.desktop
-com.visualstudio.code
 org.mozilla.Thunderbird
 org.onlyoffice.desktopeditors
+org.remmina.Remmina
+us.zoom.Zoom
