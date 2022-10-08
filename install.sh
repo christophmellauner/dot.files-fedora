@@ -57,7 +57,7 @@ function installNVM ()
 function installFlatpakPackages ()
 {
   flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-  sudo dnf -y install $(cat flatpak-package-list.txt | tr "\n" " ")
+  flatpak -y install $(cat flatpak-package-list.txt | tr "\n" " ")
 }
 
 installDependencies
@@ -65,4 +65,5 @@ installDocker
 installDDEV
 installOhMyZsh
 installSpacevim
+installNVM
 installFlatpakPackages
