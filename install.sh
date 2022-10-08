@@ -15,12 +15,7 @@ function installDocker ()
 
 function installDDEV ()
 {
-  echo '[ddev]
-  name=DDEV Repo
-  baseurl=https://yum.fury.io/drud/
-  enabled=1
-  gpgcheck=0' | sudo tee -a /etc/yum.repos.d/ddev.repo
-  sudo dnf install --refresh ddev
+  curl -fsSL https://raw.githubusercontent.com/drud/ddev/master/scripts/install_ddev.sh | bash
 }
 
 function installDependencies ()
@@ -34,8 +29,7 @@ function installOhMyZsh ()
 {
   echo "Installing OhMyZsh"
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-  sudo dnf config-manager -y --add-repo https://download.opensuse.org/repositories/shells:zsh-users:zsh-autosuggestions/Fedora_36/shells:zsh-users:zsh-autosuggestions.repo
-  sudo dnf -y install zsh-autosuggestions 
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
   echo "finished installing"
 }
 
