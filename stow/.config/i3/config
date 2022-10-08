@@ -484,7 +484,7 @@ client.urgent		    $urgentred	$urgentred	$white		$purple		$yellowbrown
 ############################################
 
 
-exec_always --no-startup-id polybar --config ~/.config/polybar/launch.sh
+exec_always --no-startup-id ~/.config/polybar/launch.sh
 
 
 # you can add different bars for multidisplay setups on each display:
