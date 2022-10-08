@@ -17,6 +17,7 @@ kompose
 neovim
 okular
 picom
+polybar
 pwgen
 rofi
 solaar
