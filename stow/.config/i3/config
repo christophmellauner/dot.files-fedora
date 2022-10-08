@@ -484,7 +484,7 @@ client.urgent		    $urgentred	$urgentred	$white		$purple		$yellowbrown
 ############################################
 
 
-exec_always --no-startup-id picom --config ~/.config/i3/picom.conf
+exec_always --no-startup-id polybar --config ~/.config/polybar/launch.sh
 
 
 # you can add different bars for multidisplay setups on each display:
