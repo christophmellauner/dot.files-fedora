@@ -27,3 +27,7 @@ zsh
 wget
 xfce-polkit
 xfce4-power-manager
+ncdu
+wireshark
+nmap
+lxappearance

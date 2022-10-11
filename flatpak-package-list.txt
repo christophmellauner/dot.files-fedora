@@ -3,6 +3,7 @@ com.borgbase.Vorta
 com.brave.Browser
 com.discordapp.Discord
 com.github.tchx84.Flatseal
+com.github.tenderowl.frog
 com.github.wwmm.easyeffects
 com.google.AndroidStudio
 com.microsoft.Teams
@@ -12,10 +13,11 @@ com.slack.Slack
 com.spotify.Client
 com.usebottles.bottles
 com.valvesoftware.Steam
-com.visualstudio.code
+md.obsidian.Obsidian
 org.ferdium.Ferdium
 org.gnome.Boxes
 org.jabref.jabref
+org.ksnip.ksnip
 org.mozilla.Thunderbird
 org.onlyoffice.desktopeditors
 org.remmina.Remmina
