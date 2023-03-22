@@ -63,6 +63,21 @@ function installVSCode ()
   sudo dnf -y install code
 }
 
+function installHomeBrew ()
+{
+  # TODO
+}
+
+function installHomeBrewPackages ()
+{
+  brew install fasd glab
+}
+
+function customizeGnomeSettings ()
+{
+  gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-1 "['<Super>1']"
+}
+
 installDependencies
 installDocker
 installDDEV
